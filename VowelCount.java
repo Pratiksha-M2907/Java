@@ -1,0 +1,12 @@
+public class VowelCount{
+static char employeeInitials[]={'A','B','C','E','D','F','S','P','I','N','T','U','A','I','H','E'};
+public static void main(String args[]){
+int vowelCount=0;
+for(int v=0;v<employeeInitials.length;v++){
+if(employeeInitials[v]=='A'||employeeInitials[v]=='E'||employeeInitials[v]=='I'||employeeInitials[v]=='O'||employeeInitials[v]=='U'){
+vowelCount++;
+}
+}
+System.out.println("Number of Vowels found in Employee Initial list are: "+vowelCount);
+}
+}
