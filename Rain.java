@@ -1,4 +1,3 @@
-
 public  class Rain {
   public static void rainIntensity(int intensity) {
     if (intensity >= 100) {
