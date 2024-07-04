@@ -1,13 +1,12 @@
-public class Phonepay {
+public class Gpay {
 public static boolean payment =true;
 public static boolean payByScan=true;
-public static String mode_chose="Through qr";
-  
-  public static void mode(String ... pro){ 	  
+public static String mode_chose="To mobile number"; 
+  public static void mode(String ... pro){  	
     System.out.println("Payment modes are: \n");
 	for(int p=1;p<pro.length;p++){
     System.out.println(" "+p+". "+pro[p]);
-   }
+	}
 }
 
   public static int amount(int q) {
@@ -29,7 +28,7 @@ public static String mode_chose="Through qr";
 	if (mode_chose=="To mobile number")
 	{
 		long phno=85321688735l;
-		System.out.println("Payment done through phone no\n");
+		System.out.println("Payment done to phone no\n"+phno);
 	}
 	else
 		System.out.println("invalid Phone no.\n");
