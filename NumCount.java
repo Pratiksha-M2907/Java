@@ -13,4 +13,3 @@ public class NumCount {
         System.out.println("Number of occurrences of '" + countNum + "': " + count);
     }
 }
-
